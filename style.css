@@ -1,0 +1,46 @@
+body {
+  background-color: #ddd;
+}
+body .container {
+  height: 1320px;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  outline: 8px solid #f00;
+  background-image: url("http://oi41.tinypic.com/w1zonc.jpg");
+  background-position: 0 -56px;
+}
+body .container header {
+  outline: 2px solid #00f;
+  height: 95px;
+  background-color: rgba(200,200,200,0.60);
+}
+body .container header nav {
+  width: 950px;
+  margin: 0 auto;
+}
+body .container header nav menu {
+  direction: rtl;
+  position: relative;
+  padding: 0;
+  margin: 0;
+}
+body .container header nav menu li {
+  list-style-type: none;
+  float: right;
+  padding: 35px 19px;
+  border-right: 1px solid #f00;
+}
+body .container header nav menu li a {
+  text-decoration: none;
+  color: #fff;
+}
+body .container .main {
+  outline: 2px solid #008000;
+  height: 850px;
+  background-color: rgba(150,0,100,0.30);
+}
+body .container footer {
+  outline: 2px solid #a52a2a;
+  height: 370px;
+  background-color: rgba(80,200,50,0.20);
+}
