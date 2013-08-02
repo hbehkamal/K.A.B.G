@@ -1,22 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
   background-color: #ddd;
 }
 body .container {
-  height: 1320px;
+  width: 950px;
   background-repeat: no-repeat;
   margin: 0 auto;
   outline: 8px solid #f00;
-  background-image: url("http://oi41.tinypic.com/w1zonc.jpg");
   background-position: 0 -56px;
 }
 body .container header {
-  outline: 5px solid #00f;
   height: 95px;
-  background-color: rgba(200,200,200,0.60);
 }
 body .container header nav {
   width: 950px;
-  margin: 0 auto;
+  margin-left: -25px;
 }
 body .container header nav menu {
   direction: rtl;
@@ -36,24 +37,99 @@ body .container header nav menu li a {
   padding: 35px 19px;
 }
 body .container div.main {
-  outline: 5px solid #e0e735;
-  height: 850px;
-  background-color: rgba(150,0,100,0.30);
+  outline: 5px solid red;
 }
 body .container div.main div {
-  outline: 1px solid #f00;
+  outline: 1px solid red;
 }
 body .container div.main .slider {
-  height: 235px;
+  height: 506px;
+  width: 900px;
+  margin: 0 auto;
+  background-image: url('images/klogo.jpg');
+  
 }
 body .container div.main .dymenu {
-  height: 330px;
+
 }
-body .container div.main .temp {
-  height: 278px;
+body .container div.main .temp p {
+  font-size: 35px;
+  direction: rtl;
 }
-body .container footer {
-  outline: 5px solid #2aa5a0;
-  height: 370px;
-  background-color: rgba(80,200,50,0.20);
+body .container footer div {
+  float: left;
+  margin: 130px;
 }
+
+/*------accslider------*/
+
+
+div.accslider {
+  width    : 630px     ;  
+  overflow : hidden    ;
+  position : relative  ;
+  margin   : 0 auto ;
+}
+
+div.floor {
+  overflow : hidden ;
+}
+
+/*------- Start Row 1 --------*/
+
+div.accslider div.row1 {
+  width  : 840px ;
+  height : 200px ;
+}
+
+div.accslider div.row1:hover div {
+  width  : 50px ;
+}
+
+div.accslider div.row1 > div:hover {
+  width : 450px ;
+}
+
+div.accslider div.row1 > div {
+  float              : left      ;
+  width              : 159px     ;
+  height             : 200px     ;
+  overflow           : hidden    ;
+  -webkit-transition : all 500ms ;
+}
+
+div.accslider div.row1 > div:last-child{
+  padding-right : 200px ;
+}
+/*------- End Row 1 --------*/
+
+
+/*------- Start Row 2 --------*/
+
+div.accslider div.row2 {
+  width  : 840px ;
+  height : 200px ;
+}
+
+div.accslider div.row2:hover div {
+  width  : 50px ;
+}
+
+div.accslider div.row2 > div:hover {
+  width : 450px ;
+}
+
+
+div.accslider div.row2 > div {
+  float              : left      ;
+  width              : 159px     ;
+  height             : 200px     ;
+  overflow           : hidden    ;
+  -webkit-transition : all 500ms ;
+}
+
+div.accslider div.row2 > div:last-child{
+  padding-right : 200px ;
+}
+
+/*------ End Row 2 ------*/
